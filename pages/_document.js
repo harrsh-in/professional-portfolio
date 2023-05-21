@@ -5,7 +5,7 @@ class MyDocument extends Document {
         return (
             <Html lang="en">
                 <Head>
-                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                     <meta
                         name="google-site-verification"
                         content="Tqj-B_bSqzECheWc3ywpMN84lTT_5_M2Y8ZB0WRgn8U"
