@@ -9,6 +9,7 @@ const MyData = {
     name: 'Harrsh Patel',
     description: 'Senior Software Developer',
     email: 'me@harrsh.com',
+    htmlEmail: 'me[at]harrsh.com',
     call: '+91 9099976321',
 
     socialLinks: [

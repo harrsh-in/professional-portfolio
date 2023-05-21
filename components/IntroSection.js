@@ -16,13 +16,20 @@ const IntroSection = () => {
         <section className={`${style.introSectionContainer} ${style.sectionContainer}`}>
             <div className={style.introSectionImage}>
                 {loadAmp ? (
-                    <amp-img src={MyPhoto} alt="Harsh Patel" layout="responsive" />
+                    <amp-img
+                        src={MyPhoto}
+                        alt="Harsh Patel"
+                        layout="responsive"
+                        width="152"
+                        height="152"
+                    />
                 ) : (
                     <Image
                         src={MyPhoto}
                         alt="Harsh Patel"
                         priority={true}
-                        layout="responsive"
+                        fill
+                        sizes="152"
                         quality="100"
                         placeholder="blur"
                     />
@@ -33,7 +40,7 @@ const IntroSection = () => {
                 <h1>{MyData.name}</h1>
                 <h2>{MyData.description}</h2>
                 <div className={style.introSectionEmail}>
-                    📧 <a href={`mailto:${MyData.email}`}>{MyData.email}</a>
+                    📧 <a href={`mailto:${MyData.email}`}>{MyData.htmlEmail}</a>
                 </div>
                 <div className={style.introSectionEmail}>
                     📞 <a href={`tel:${MyData.call}`}>{MyData.call}</a>
