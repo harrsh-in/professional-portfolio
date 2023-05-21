@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import MyPhoto from '../public/MyPhoto.jpg';
+import MyPhoto from '../public/MyPhoto.svg';
+import MyPhotoJpg from '../public/MyPhoto.jpg';
 import MyData from '../data/myDetails';
 import style from '../styles/Home.module.css';
 import { useAmp } from 'next/amp';
@@ -32,6 +33,7 @@ const IntroSection = () => {
                         sizes="152"
                         quality="100"
                         placeholder="blur"
+                        blurDataURL={'../public/MyPhoto.jpg'}
                     />
                 )}
             </div>
