@@ -5,6 +5,7 @@ class MyDocument extends Document {
         return (
             <Html lang="en">
                 <Head>
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
                     <meta
                         name="google-site-verification"
                         content="Tqj-B_bSqzECheWc3ywpMN84lTT_5_M2Y8ZB0WRgn8U"
@@ -47,7 +48,7 @@ class MyDocument extends Document {
                     />
                     <meta name="robots" content="index, follow" />
                     <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-                    <meta name="language" content="English" />
+                    <meta name="language" content="en" />
                     <meta name="author" content="Harrsh Patel" />
 
                     {/* Open Graph / Facebook */}
