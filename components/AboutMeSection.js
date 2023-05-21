@@ -11,7 +11,13 @@ const AboutMeSection = () => {
                 Total experience: {MyData.aboutMe.totalExperience} years
             </p>
 
-            <p className={style.aboutMeDetails}>{MyData.aboutMe.details}</p>
+            {MyData.aboutMe.details.map((el, index) => {
+                return (
+                    <p className={style.aboutMeDetails} key={index}>
+                        {el}
+                    </p>
+                );
+            })}
 
             <p className={style.aboutMeDetails}>
                 Sometimes I write at{' '}
