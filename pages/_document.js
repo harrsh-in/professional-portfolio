@@ -40,7 +40,7 @@ class MyDocument extends Document {
                     <meta name="title" content="Harsh Patel | Full-Stack Web Developer" />
                     <meta
                         name="description"
-                        content="Experienced Full Stack Web Developer proficient in both front-end and back-end development, skilled in creating dynamic, user-friendly websites and web applications to deliver seamless and efficient solutions."
+                        content="I am Harrsh Patel, an experienced Full Stack Web Developer proficient in both front-end and back-end development, skilled in creating dynamic, user-friendly websites and web applications to deliver seamless and efficient solutions."
                     />
                     <meta
                         name="keywords"
@@ -57,7 +57,7 @@ class MyDocument extends Document {
                     <meta property="og:title" content="Harsh Patel | Full-Stack Web Developer" />
                     <meta
                         property="og:description"
-                        content="Experienced Full Stack Web Developer proficient in both front-end and back-end development, skilled in creating dynamic, user-friendly websites and web applications to deliver seamless and efficient solutions."
+                        content="I am Harrsh Patel, an experienced Full Stack Web Developer proficient in both front-end and back-end development, skilled in creating dynamic, user-friendly websites and web applications to deliver seamless and efficient solutions."
                     />
                     <meta property="og:image" content="https://www.harrsh.com/MyPhoto.jpg" />
 
@@ -70,7 +70,7 @@ class MyDocument extends Document {
                     />
                     <meta
                         property="twitter:description"
-                        content="Experienced Full Stack Web Developer proficient in both front-end and back-end development, skilled in creating dynamic, user-friendly websites and web applications to deliver seamless and efficient solutions."
+                        content="I am Harrsh Patel, an experienced Full Stack Web Developer proficient in both front-end and back-end development, skilled in creating dynamic, user-friendly websites and web applications to deliver seamless and efficient solutions."
                     />
                     <meta property="twitter:image" content="https://www.harrsh.com/MyPhoto.jpg" />
 
