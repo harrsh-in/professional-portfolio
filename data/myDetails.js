@@ -74,11 +74,21 @@ const MyData = {
 
     workHistory: [
         {
-            position: 'Full-stack Web Developer',
+            position: 'Sr. Full-stack Web Developer',
+            company: '7Span Internet Pvt. Ltd.',
+            companyURL: 'https://7span.com/',
+            place: 'Ahmedabad, Gujarat',
+            duration: 'June 2023 - Present',
+            details: [
+                ''
+            ]
+        },
+        {
+            position: 'Sr. Full-stack Web Developer',
             company: 'Excellent WebWorld Pvt. Ltd.',
             companyURL: 'https://www.excellentwebworld.com/',
             place: 'Ahmedabad, Gujarat',
-            duration: 'April 2022 - Present',
+            duration: 'April 2022 - June 2023',
             details: [
                 'Worked on a desktop app for IoT devices to measure ECG of patients.',
                 'Worked on server and admin panel for a security company. Worked with a complete remote team and managing the server and admin panel effectively.',
