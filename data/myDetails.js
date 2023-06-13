@@ -80,7 +80,7 @@ const MyData = {
             place: 'Ahmedabad, Gujarat',
             duration: 'June 2023 - Present',
             details: [
-                ''
+                
             ]
         },
         {
