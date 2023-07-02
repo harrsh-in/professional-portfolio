@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <Fragment>
             <Head>
-                <title>Harsh Patel | Full-Stack Web Developer</title>
+                <title>Harrsh Patel | Full-Stack Web Developer</title>
                 <link rel="canonical" href="https://www.harrsh.com" />
             </Head>
 
