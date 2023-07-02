@@ -37,7 +37,7 @@ class MyDocument extends Document {
                     {/* SEO */}
 
                     {/* Primary Meta Tags */}
-                    <meta name="title" content="Harsh Patel | Full-Stack Web Developer" />
+                    <meta name="title" content="Harrsh Patel | Full-Stack Web Developer" />
                     <meta
                         name="description"
                         content="I am Harrsh Patel, an experienced Full Stack Web Developer proficient in both front-end and back-end development, skilled in creating dynamic, user-friendly websites and web applications to deliver seamless and efficient solutions."
@@ -54,7 +54,7 @@ class MyDocument extends Document {
                     {/* Open Graph / Facebook */}
                     <meta property="og:type" content="website" />
                     <meta property="og:url" content="https://www.harrsh.com/" />
-                    <meta property="og:title" content="Harsh Patel | Full-Stack Web Developer" />
+                    <meta property="og:title" content="Harrsh Patel | Full-Stack Web Developer" />
                     <meta
                         property="og:description"
                         content="I am Harrsh Patel, an experienced Full Stack Web Developer proficient in both front-end and back-end development, skilled in creating dynamic, user-friendly websites and web applications to deliver seamless and efficient solutions."
@@ -66,7 +66,7 @@ class MyDocument extends Document {
                     <meta property="twitter:url" content="https://www.harrsh.com/" />
                     <meta
                         property="twitter:title"
-                        content="Harsh Patel | Full-Stack Web Developer"
+                        content="Harrsh Patel | Full-Stack Web Developer"
                     />
                     <meta
                         property="twitter:description"
