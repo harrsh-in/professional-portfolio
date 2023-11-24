@@ -44,9 +44,7 @@ const IntroSection = () => {
                 <div className={style.introSectionEmail}>
                     📧 <a href={`mailto:${MyData.email}`}>{MyData.htmlEmail}</a>
                 </div>
-                <div className={style.introSectionEmail}>
-                    📞 <a href={`tel:${MyData.call}`}>{MyData.call}</a>
-                </div>
+                
             </div>
         </section>
     );
