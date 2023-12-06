@@ -15,19 +15,19 @@ const MyData = {
     socialLinks: [
         {
             title: 'LinkedIn',
-            url: 'https://www.linkedin.com/in/harrsh2124'
+            url: 'https://www.linkedin.com/in/harrsh-in'
         },
         {
             title: 'GitHub',
-            url: 'https://github.com/harrsh2124'
+            url: 'https://github.com/harrsh-in'
         },
         {
             title: 'Instagram',
-            url: 'https://instagram.com/harrsh2124'
+            url: 'https://instagram.com/harrsh_in'
         },
         {
             title: 'Dev.to',
-            url: 'https://dev.to/harrsh2124'
+            url: 'https://dev.to/harrsh'
         },
         {
             title: 'Resume',
