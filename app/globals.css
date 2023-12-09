@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --text-primary: #ffffffcc;
+    --text-secondary: #ffffff66;
+    --bg-color: #171717;
+    --highlight-color: #e5b8f4;
+    --link-color: #5b34da;
+}
+
+html {
+    background-color: var(--bg-color);
+}
+
+body {
+    color: var(--text-primary);
+}
+
+.text-secondary {
+    color: var(--text-secondary);
+}
+
+a {
+    color: var(--link-color);
+}
+
+.highlight {
+    color: var(--highlight-color);
+}
