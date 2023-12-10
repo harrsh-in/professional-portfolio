@@ -8,7 +8,15 @@ export const metadata: Metadata = {
 };
 
 const Home = () => {
-    return <div>Home App</div>;
+    return (
+        <div>
+            <div className="h-screen">One</div>
+            <div className="h-screen">Two</div>
+            <div className="h-screen">Three</div>
+            <div className="h-screen">Four</div>
+            <div className="h-screen">Five</div>
+        </div>
+    );
 };
 
 export default Home;

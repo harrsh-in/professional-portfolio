@@ -2,7 +2,7 @@ import React from "react";
 
 import { Metadata } from "next";
 
-import CommonMetaData from "../../constants/metadata";
+import CommonMetaData from "@/src/constants/metadata";
 
 export const metadata: Metadata = {
     title: "About me",

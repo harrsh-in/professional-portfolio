@@ -16,6 +16,7 @@ html {
 
 body {
     color: var(--text-primary);
+    user-select: none;
 }
 
 .text-secondary {
