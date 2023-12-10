@@ -12,7 +12,7 @@ import {
 } from "@react-three/fiber";
 import * as THREE from "three";
 
-function PixelatedSphere() {
+const PixelatedSphere = () => {
     const sphereRef = useRef<THREE.Points>(null);
 
     useFrame(({ clock }) => {
@@ -30,7 +30,9 @@ function PixelatedSphere() {
                 typeof THREE.IcosahedronGeometry
             >
         >
-    > = { args: [1, 4] };
+    > = {
+        args: [1, 4],
+    };
 
     return (
         <points ref={sphereRef}>
@@ -41,9 +43,9 @@ function PixelatedSphere() {
             />
         </points>
     );
-}
+};
 
-function Birds() {
+const Birds = () => {
     const groupRef = useRef<THREE.Group>(null);
 
     useFrame(({ clock }) => {
@@ -70,7 +72,9 @@ function Birds() {
                 Partial<THREE.PlaneGeometry>,
                 NodeProps<THREE.PlaneGeometry, typeof THREE.PlaneGeometry>
             >
-        > = { args: [size, size] };
+        > = {
+            args: [size, size],
+        };
 
         return (
             <mesh
@@ -84,7 +88,7 @@ function Birds() {
     });
 
     return <group ref={groupRef}>{birds}</group>;
-}
+};
 
 const FooterGraphic = () => {
     return (

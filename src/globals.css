@@ -3,20 +3,25 @@
 @tailwind utilities;
 
 :root {
-    --text-primary: #ffffffcc;
+    --text-primary: #ffffff;
     --text-secondary: #ffffff66;
     --bg-color: #171717;
-    --highlight-color: #e5b8f4;
-    --link-color: #5b34da;
+    --highlight-color: #5b34da;
+    --link-color: #9d86e9;
 }
 
 html {
     background-color: var(--bg-color);
+    font-size: 18px;
 }
 
 body {
     color: var(--text-primary);
     user-select: none;
+}
+
+header {
+    background-color: var(--bg-color);
 }
 
 .text-secondary {
