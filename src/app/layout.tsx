@@ -8,6 +8,7 @@ import NextTopLoader from "nextjs-toploader";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ScrollToTop from "../components/ScrollToTop";
+import Splash from "../components/splash";
 
 const inter = Inter({
     subsets: ["latin"],
@@ -36,19 +37,21 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`${inter.className} no-scrollbar`}>
-                <NextTopLoader
-                    color={randomColor}
-                    showSpinner={false}
-                />
-                <ScrollToTop />
+                <Splash>
+                    <NextTopLoader
+                        color={randomColor}
+                        showSpinner={false}
+                    />
+                    <ScrollToTop />
 
-                <main className="mx-auto flex min-h-screen w-screen max-w-[600px] flex-col px-4">
-                    <Header />
+                    <main className="mx-auto flex min-h-screen w-screen max-w-[600px] flex-col px-4">
+                        <Header />
 
-                    <div className="flex-1">{children}</div>
+                        <div className="flex-1">{children}</div>
 
-                    <Footer />
-                </main>
+                        <Footer />
+                    </main>
+                </Splash>
             </body>
         </html>
     );
