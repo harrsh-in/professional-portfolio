@@ -1,8 +1,6 @@
-import React from "react";
-
 import { Metadata } from "next";
-import Link from "next/link";
 
+import ParagraphLink from "../components/ParagraphLink";
 import ParagraphText from "../components/ParagraphText";
 import CommonMetaData from "../constants/metadata";
 
@@ -31,14 +29,8 @@ const Home = () => {
 
             <ParagraphText>
                 I&apos;m a Senior Full-Stack Developer currently working at{" "}
-                <Link
-                    href="https://7span.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    7Span
-                </Link>
-                . My passion for technology extends beyond 4 years, specializing
+                <ParagraphLink href="https://7span.com/">7Span</ParagraphLink>.
+                My passion for technology extends beyond 4 years, specializing
                 in cloud-based technologies, full-stack development, and a deep
                 understanding of AWS services. I am adept in creating robust,
                 scalable applications using a variety of technologies including
