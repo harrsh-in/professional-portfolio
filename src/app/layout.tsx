@@ -1,6 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
+import { Analytics } from "@vercel/analytics/react";
+
 import "../globals.css";
 import { Inter } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
@@ -52,6 +54,8 @@ export default function RootLayout({
                         <Footer />
                     </main>
                 </Splash>
+
+                <Analytics />
             </body>
         </html>
     );
