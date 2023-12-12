@@ -2,15 +2,14 @@
 import React, { useEffect, useState } from "react";
 
 import { Analytics } from "@vercel/analytics/react";
-
 import "../globals.css";
 import { Inter } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
 
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import ScrollToTop from "../components/ScrollToTop";
-import Splash from "../components/splash";
+import Footer from "@/src/components/Footer";
+import Header from "@/src/components/Header";
+import ScrollToTop from "@/src/components/ScrollToTop";
+import Splash from "@/src/components/splash";
 
 const inter = Inter({
     subsets: ["latin"],
