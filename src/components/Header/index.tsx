@@ -24,8 +24,8 @@ const Header = () => {
 
             {pathname === "/" ? (
                 <Link href={NavLinks.about.route}>
-                    <div className="rounded border border-[--highlight-color] px-2 py-1 transition-colors duration-200 hover:bg-[--highlight-color]">
-                        <span className="text-[--text-primary]">
+                    <div className="flex rounded border border-[--highlight-color] p-2 transition-colors duration-200 hover:bg-[--highlight-color]">
+                        <span className="m-auto text-xs text-[--text-primary]">
                             {NavLinks.about.title}
                         </span>
                     </div>

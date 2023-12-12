@@ -6,8 +6,8 @@
     --text-primary: #ffffff;
     --text-secondary: #ffffff66;
     --bg-color: #171717;
-    --highlight-color: #5b34da;
-    --link-color: #9d86e9;
+    --heading-color: rgb(229, 184, 244);
+    --highlight-color: rgb(97, 218, 251);
 }
 
 html {
@@ -28,12 +28,13 @@ header {
     color: var(--text-secondary);
 }
 
-a {
-    color: var(--link-color);
-}
-
+a,
 .highlight {
     color: var(--highlight-color);
+}
+
+.heading {
+    color: var(--heading-color);
 }
 
 .no-scrollbar::-webkit-scrollbar {
