@@ -1,8 +1,8 @@
-import React from "react";
-
 import { Metadata } from "next";
+import Link from "next/link";
 
 import Heading from "./Heading";
+import SocialMedia from "./SocialMedia";
 import ParagraphText from "../../components/ParagraphText";
 import CommonMetaData from "../../constants/metadata";
 
@@ -63,6 +63,12 @@ const About = () => {
 
             <ParagraphText>
                 You can reach me out on the following platforms:
+            </ParagraphText>
+            <SocialMedia />
+
+            <ParagraphText>
+                To connect further you can react out to me at{" "}
+                <Link href="mailto:dev@harrsh.com">dev[at]harrsh.com</Link>.
             </ParagraphText>
         </div>
     );
