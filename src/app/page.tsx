@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 
-import ParagraphHighlightText from "../components/ParagraphHighlightText";
-import ParagraphLink from "../components/ParagraphLink";
-import ParagraphText from "../components/ParagraphText";
-import CommonMetaData from "../constants/metadata";
+import ParagraphHighlightText from "@/src/components/ParagraphHighlightText";
+import ParagraphLink from "@/src/components/ParagraphLink";
+import ParagraphText from "@/src/components/ParagraphText";
+import CommonMetaData from "@/src/constants/metadata";
 
 export const metadata: Metadata = {
     ...CommonMetaData,

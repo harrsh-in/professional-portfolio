@@ -1,10 +1,13 @@
 import { Metadata } from "next";
 import Link from "next/link";
 
+import ParagraphHighlightText from "@/src/components/ParagraphHighlightText";
+import ParagraphLink from "@/src/components/ParagraphLink";
+import ParagraphText from "@/src/components/ParagraphText";
+import CommonMetaData from "@/src/constants/metadata";
+
 import Heading from "./Heading";
 import SocialMedia from "./SocialMedia";
-import ParagraphText from "../../components/ParagraphText";
-import CommonMetaData from "../../constants/metadata";
 
 export const metadata: Metadata = {
     ...CommonMetaData,
@@ -18,39 +21,89 @@ const About = () => {
             <Heading />
 
             <ParagraphText>
-                In my role as a Senior Full-Stack Developer, I have honed my
-                skills in cloud computing and full-stack development over the
-                past 4 years. My expertise in AWS services encompasses EC2, S3,
-                DynamoDB, VPC, IAM, and more, enabling me to build and maintain
-                scalable cloud infrastructure. I am proficient in both front-end
-                and back-end development, with a strong command of technologies
-                like Node.js, React.js, Express.js, and databases such as MySQL,
-                PostgreSQL, and MongoDB. My experience includes working with
-                messaging brokers like Redis, MQTT, and SQS, and I am familiar
-                with various development IDEs and management tools like Visual
-                Studio Code, Jira, and Trello.
+                I am a Senior Full-Stack Developer with over four years of
+                experience in the IT industry, specializing in cloud-based
+                technologies and full-stack development. My expertise extends
+                beyond technical skills to proficient client communication and
+                effective team management. I excel in developing web
+                applications using the{" "}
+                <ParagraphHighlightText>MERN stack</ParagraphHighlightText>{" "}
+                (MongoDB, Express.js, React JS, Node.js), coupled with a deep
+                understanding of RDBMS like MySQL and NoSQL databases like
+                MongoDB. My proficiency in front-end technologies, including
+                <ParagraphHighlightText>React.js</ParagraphHighlightText> and
+                <ParagraphHighlightText>TypeScript</ParagraphHighlightText>,
+                enhances my ability to deliver comprehensive and user-friendly
+                digital solutions. I am adept at initiating projects from
+                scratch and steering them to completion with a focus on client
+                satisfaction. My experience with{" "}
+                <ParagraphHighlightText>AWS services</ParagraphHighlightText>{" "}
+                like EC2, S3, DynamoDB, and various AWS deployment tools allows
+                me to build scalable, secure cloud infrastructure, optimizing
+                deployment processes and reducing system latency.
             </ParagraphText>
 
             <ParagraphText>
-                Photography and travel are my gateways to new experiences, with
-                my camera capturing the essence of diverse landscapes and
-                cultures. My current literary journey with &quot;The Hidden
-                Hindu&quot; is a testament to my love for reading, offering new
-                perspectives and insights.
+                In my role as a Full-Stack Developer, I specialize in maximizing
+                the potential of AWS services. My expertise in cloud computing,
+                combined with my full-stack development skills, enables me to
+                offer end-to-end solutions that are innovative, reliable, and
+                efficient. This skill set is crucial in today&apos;s technology
+                landscape, where cloud infrastructure plays a pivotal role in
+                the success of web applications.
             </ParagraphText>
 
             <ParagraphText>
-                Cooking and baking are my forms of creative expression, where I
-                experiment with flavors and techniques. It&apos;s a therapeutic
-                process that complements my structured approach to technology.
+                At <ParagraphLink href="https://7span.com">7Span</ParagraphLink>
+                , my role as a Senior Full Stack Developer goes beyond just
+                coding; it involves leading projects and managing teams with a
+                strategic vision. I take pride in fostering a collaborative
+                environment where team members can grow and excel. My approach
+                to project management is centered on clear communication,
+                setting realistic goals, and ensuring that every team member is
+                aligned with the project&apos;s objectives. This leadership
+                style has not only led to successful project completions but
+                also to building strong, cohesive teams that are capable of
+                tackling complex challenges in the tech industry.
             </ParagraphText>
 
             <ParagraphText>
-                I believe in maintaining a harmonious balance between my
-                professional endeavors and personal interests. This equilibrium
-                not only drives my success in the tech industry but also
-                enriches my life with diverse experiences and continuous
-                learning.
+                My journey in the tech world is deeply rooted in my educational
+                background in Computer Engineering from{" "}
+                <ParagraphHighlightText>
+                    Gujarat Technological University
+                </ParagraphHighlightText>
+                . The rigorous curriculum provided me with a strong foundation
+                in the principles of software development and cloud computing.
+                Beyond my formal education, I am passionately committed to
+                lifelong learning. I continuously seek out new knowledge and
+                skills, whether through professional development courses, tech
+                conferences, or self-study. This dedication to learning ensures
+                that I remain at the cutting edge of technology, always ready to
+                adapt and innovate in an ever-evolving industry.
+            </ParagraphText>
+
+            <ParagraphText>
+                Outside of my professional endeavors, I engage in activities
+                that fuel my creativity and broaden my perspective. Photography
+                allows me to capture and appreciate the world&apos;s beauty and
+                diversity, while travel opens my eyes to new cultures and
+                experiences. Cooking is another passion that challenges me to
+                experiment and innovate, much like in my professional work.
+                These interests not only provide a creative outlet but also
+                influence my approach to technology, encouraging me to think
+                outside the box and bring a unique perspective to my work.
+            </ParagraphText>
+
+            <ParagraphText>
+                As I look to the future, I am filled with excitement about the
+                endless possibilities in the fields of software development and
+                cloud computing. My career is a testament to the power of
+                blending technical expertise with strong interpersonal skills,
+                creativity, and a commitment to continuous learning. I am driven
+                by the desire to explore new technologies, innovate solutions,
+                and contribute meaningfully to the tech world, while also
+                nurturing my personal growth and diverse interests.
             </ParagraphText>
 
             <ParagraphText>
