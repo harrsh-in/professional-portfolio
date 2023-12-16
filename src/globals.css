@@ -29,7 +29,8 @@ header {
 }
 
 a,
-.highlight {
+.highlight,
+.about-extra-pages-list > li > svg {
     color: var(--highlight-color);
 }
 

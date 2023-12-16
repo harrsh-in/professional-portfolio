@@ -22,7 +22,7 @@ const Header = () => {
                 <div className="h-6 w-6 rounded-md bg-[--highlight-color]" />
             </Link>
 
-            {pathname === "/" ? (
+            {pathname !== NavLinks.about.route ? (
                 <Link href={NavLinks.about.route}>
                     <div className="flex rounded border border-[--highlight-color] p-2 text-[--text-primary] transition-colors duration-200 hover:bg-[--highlight-color] hover:text-[#171717]">
                         <span className="m-auto text-xs">

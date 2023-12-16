@@ -6,6 +6,7 @@ import ParagraphLink from "@/src/components/ParagraphLink";
 import ParagraphText from "@/src/components/ParagraphText";
 import CommonMetaData from "@/src/constants/metadata";
 
+import ExtraPages from "./ExtraPages";
 import Heading from "./Heading";
 import SocialMedia from "./SocialMedia";
 
@@ -123,6 +124,11 @@ const About = () => {
                 To connect further you can react out to me at{" "}
                 <Link href="mailto:dev@harrsh.com">dev[at]harrsh.com</Link>.
             </ParagraphText>
+
+            <ParagraphText>
+                Here&apos;s a list of pages that curate my website
+            </ParagraphText>
+            <ExtraPages />
         </div>
     );
 };
