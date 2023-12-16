@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://harrsh.link
+
+# Sitemaps
+Sitemap: https://harrsh.link/sitemap.xml
