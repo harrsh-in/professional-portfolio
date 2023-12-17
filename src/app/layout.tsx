@@ -7,9 +7,13 @@ import "../globals.css";
 import { Inter } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
 
-const Footer = dynamic(() => import("@/src/components/Footer"));
+const Footer = dynamic(() => import("@/src/components/Footer"), {
+    ssr: false,
+});
 import Header from "@/src/components/Header";
-const ScrollToTop = dynamic(() => import("@/src/components/ScrollToTop"));
+const ScrollToTop = dynamic(() => import("@/src/components/ScrollToTop"), {
+    ssr: false,
+});
 import Splash from "@/src/components/splash";
 
 const inter = Inter({

@@ -5,13 +5,23 @@ import Link from "next/link";
 const ParagraphHighlightText = dynamic(
     () => import("@/src/components/ParagraphHighlightText"),
 );
-const ParagraphLink = dynamic(() => import("@/src/components/ParagraphLink"));
-const ParagraphText = dynamic(() => import("@/src/components/ParagraphText"));
+const ParagraphLink = dynamic(() => import("@/src/components/ParagraphLink"), {
+    ssr: false,
+});
+const ParagraphText = dynamic(() => import("@/src/components/ParagraphText"), {
+    ssr: false,
+});
 import CommonMetaData from "@/src/constants/metadata";
 
-const ExtraPages = dynamic(() => import("./ExtraPages"));
-const Heading = dynamic(() => import("./Heading"));
-const SocialMedia = dynamic(() => import("./SocialMedia"));
+const ExtraPages = dynamic(() => import("./ExtraPages"), {
+    ssr: false,
+});
+const Heading = dynamic(() => import("./Heading"), {
+    ssr: false,
+});
+const SocialMedia = dynamic(() => import("./SocialMedia"), {
+    ssr: false,
+});
 
 export const metadata: Metadata = {
     ...CommonMetaData,

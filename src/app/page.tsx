@@ -3,9 +3,16 @@ import dynamic from "next/dynamic";
 
 const ParagraphHighlightText = dynamic(
     () => import("@/src/components/ParagraphHighlightText"),
+    {
+        ssr: false,
+    },
 );
-const ParagraphLink = dynamic(() => import("@/src/components/ParagraphLink"));
-const ParagraphText = dynamic(() => import("@/src/components/ParagraphText"));
+const ParagraphLink = dynamic(() => import("@/src/components/ParagraphLink"), {
+    ssr: false,
+});
+const ParagraphText = dynamic(() => import("@/src/components/ParagraphText"), {
+    ssr: false,
+});
 import CommonMetaData from "@/src/constants/metadata";
 
 export const metadata: Metadata = {
