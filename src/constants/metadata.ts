@@ -10,6 +10,7 @@ const CommonMetaData: Metadata = {
     authors: [
         {
             name: "Harrsh Patel",
+            url: process.env.SITE_URL,
         },
     ],
     abstract: shortDescription,
