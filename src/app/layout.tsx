@@ -11,9 +11,6 @@ const Footer = dynamic(() => import("@/src/components/Footer"), {
     ssr: false,
 });
 import Header from "@/src/components/Header";
-const ScrollToTop = dynamic(() => import("@/src/components/ScrollToTop"), {
-    ssr: false,
-});
 import Splash from "@/src/components/splash";
 
 const inter = Inter({
@@ -48,7 +45,6 @@ export default function RootLayout({
                         color={randomColor}
                         showSpinner={false}
                     />
-                    <ScrollToTop />
 
                     <main className="mx-auto flex min-h-screen w-screen max-w-[600px] flex-col px-4">
                         <Header />
