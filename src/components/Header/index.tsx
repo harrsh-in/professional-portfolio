@@ -21,7 +21,10 @@ const Header = () => {
     return (
         <header className="sticky top-0 flex h-16 w-full items-center justify-between py-3">
             <div className="flex items-center gap-4">
-                <Link href={NavLinks.home.route}>
+                <Link
+                    href={NavLinks.home.route}
+                    title="Home"
+                >
                     <div className="h-6 w-6 rounded-md bg-[--highlight-color]" />
                 </Link>
 
