@@ -3,7 +3,7 @@ import { Metadata } from "next";
 const longDescription =
     "Harsh Patel: Experienced Full-Stack Developer and Cloud Engineer specializing in MERN stack, AWS, and TypeScript. Expert in client communication, team management, and innovative web solutions.";
 const shortDescription =
-    "Expert Full-Stack Dev & Cloud Engineer with MERN & AWS.";
+    "Harrsh Patel - Expert Full-Stack Dev & Cloud Engineer with MERN & AWS";
 
 const CommonMetaData: Metadata = {
     description: longDescription,
