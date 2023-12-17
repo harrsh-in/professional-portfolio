@@ -20,7 +20,7 @@ const IconLinks = [
         icon: FaGithub,
     },
     {
-        link: "https://instagram.com/harrsh-in",
+        link: "https://instagram.com/harrsh_in",
         title: "Harrsh Patel's Instagram",
         icon: FaInstagram,
     },
