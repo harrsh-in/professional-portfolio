@@ -1,8 +1,11 @@
 import { Metadata } from "next";
+import dynamic from "next/dynamic";
 
-import ParagraphHighlightText from "@/src/components/ParagraphHighlightText";
-import ParagraphLink from "@/src/components/ParagraphLink";
-import ParagraphText from "@/src/components/ParagraphText";
+const ParagraphHighlightText = dynamic(
+    () => import("@/src/components/ParagraphHighlightText"),
+);
+const ParagraphLink = dynamic(() => import("@/src/components/ParagraphLink"));
+const ParagraphText = dynamic(() => import("@/src/components/ParagraphText"));
 import CommonMetaData from "@/src/constants/metadata";
 
 export const metadata: Metadata = {

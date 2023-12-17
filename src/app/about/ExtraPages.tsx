@@ -40,9 +40,7 @@ const ExtraPages = () => {
                         key={el.id}
                     >
                         <FaLongArrowAltRight />
-                        <span>
-                            <Link href={el.url}>{el.url}</Link>
-                        </span>
+                        <Link href={"/about" + el.url}>{el.url}</Link>
                     </li>
                 );
             })}

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 import anime from "animejs";
 
-const Loader: React.FC = () => {
+const Loader = () => {
     useEffect(() => {
         anime({
             targets: "#loader path",
@@ -16,7 +16,7 @@ const Loader: React.FC = () => {
     }, []);
 
     return (
-        <div className="fixed inset-0 flex h-screen items-center justify-center overflow-hidden bg-white px-4 sm:px-0">
+        <div className="fixed inset-0 z-50 flex h-screen items-center justify-center overflow-hidden bg-white px-4 sm:px-0">
             <svg
                 width="635"
                 height="437"

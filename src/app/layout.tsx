@@ -2,13 +2,14 @@
 import React, { useEffect, useState } from "react";
 
 import { Analytics } from "@vercel/analytics/react";
+import dynamic from "next/dynamic";
 import "../globals.css";
 import { Inter } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
 
-import Footer from "@/src/components/Footer";
+const Footer = dynamic(() => import("@/src/components/Footer"));
 import Header from "@/src/components/Header";
-import ScrollToTop from "@/src/components/ScrollToTop";
+const ScrollToTop = dynamic(() => import("@/src/components/ScrollToTop"));
 import Splash from "@/src/components/splash";
 
 const inter = Inter({
