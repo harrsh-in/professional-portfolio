@@ -1,13 +1,9 @@
 "use client";
 import Link from "next/link";
 
-import FooterGraphic from "./FooterGraphic";
-
 export default function Footer() {
     return (
         <footer className="py-6 text-xs sm:px-5 sm:text-sm">
-            <FooterGraphic />
-
             <p className="mb-2 mt-6 text-center">
                 Made with ❤️ using{" "}
                 <Link
