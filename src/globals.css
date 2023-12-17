@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 :root {
-    --text-primary: #ffffff;
-    --text-secondary: #ffffff66;
-    --bg-color: #171717;
+    --text-primary: rgb(255, 255, 255);
+    --text-secondary: rgba(255, 255, 255, 0.4);
+    --bg-color: rgb(0, 0, 0);
     --heading-color: rgb(229, 184, 244);
-    --highlight-color: rgb(97, 218, 251);
+    --highlight-color: rgba(90, 200, 200, 1);
+    --link-color: rgba(10, 255, 255, 0.8);
 }
 
 html {
@@ -28,7 +29,10 @@ header {
     color: var(--text-secondary);
 }
 
-a,
+a {
+    color: var(--link-color);
+}
+
 .highlight,
 .about-extra-pages-list > li > svg {
     color: var(--highlight-color);
