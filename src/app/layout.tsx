@@ -46,7 +46,7 @@ export default function RootLayout({
                         showSpinner={false}
                     />
 
-                    <main className="mx-auto flex min-h-screen w-screen max-w-[600px] flex-col px-4">
+                    <main className="mx-auto flex min-h-screen w-screen max-w-[800px] flex-col px-4">
                         <Header />
 
                         <div className="flex-1">{children}</div>
