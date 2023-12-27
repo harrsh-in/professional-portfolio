@@ -49,7 +49,7 @@ export default function RootLayout({
                     <main className="mx-auto flex min-h-screen w-screen max-w-[800px] flex-col px-4">
                         <Header />
 
-                        <div className="flex-1">{children}</div>
+                        <div className="flex grow">{children}</div>
 
                         <Footer />
                     </main>

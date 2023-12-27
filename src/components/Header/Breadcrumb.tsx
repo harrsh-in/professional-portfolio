@@ -21,6 +21,7 @@ const Breadcrumb = () => {
                                 "/" +
                                 [...pathNames].splice(0, key + 1).join("/")
                             }
+                            title="About me"
                         >
                             {path}
                         </Link>
