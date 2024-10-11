@@ -78,7 +78,7 @@ const MyData = {
             company: '7Span Internet Pvt. Ltd.',
             companyURL: 'https://7span.com/',
             place: 'Ahmedabad, Gujarat',
-            duration: 'June 2023 - Present',
+            duration: 'June 2023 - September 2024',
             details: [
                 
             ]
